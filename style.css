@@ -1,0 +1,201 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: #d7d7d7;
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.top-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #d7d7d7;
+    border-bottom: 0 solid #d7d7d7;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.img-head-logo {
+    height: 60px;
+    width: auto;
+}
+
+.top-nav h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: 300%;
+    gap: 50px;
+    font-size: 20px;
+    position: relative;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #0077ff;
+}
+
+.top-header a img[alt="кнопка-тг"] {
+    transition: transform 0.3s ease;
+}
+
+.top-header a img[alt="кнопка-тг"]:hover {
+    transform: scale(1.1);
+}
+
+
+.Великий-надпис h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #222;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 250px;
+    gap: 50px;
+    text-align: center;
+
+}
+
+.underline01 {
+  text-decoration: underline;
+  color: blue; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 10px solid #0077ff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+
+ol p {
+    margin: 10px 0;
+}
+
+.about-us-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0 20px;
+    margin-top: 80px;
+}
+
+section[class^="under-about-us-blocks"] {
+    background-color: white;
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 100;
+    gap: 50px;
+}
+
+section[class^="under-about-us-blocks"] img {
+    flex-shrink: 0;
+}
+
+section[class^="under-about-us-blocks"] p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .top-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .top-nav h2 {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .Великий-надпис h1 {
+        font-size: 1px;
+        padding: 0 10px;
+    }
+
+    section[class^="under-about-us-blocks"] {
+        flex-direction: column-;
+    }
+  }
